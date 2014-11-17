@@ -24,7 +24,7 @@ def index(id):
         prijatelji = c.fetchall()
         c.close()
         return {'obstaja': True, 'ime': ime, 'priimek': priimek, 'prijatelji': prijatelji}
-
+# bla
 
 ############################
 
